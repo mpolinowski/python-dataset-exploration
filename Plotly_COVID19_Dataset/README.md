@@ -242,7 +242,7 @@ fig.add_trace(go.Scatter(
 ))
 ```
 
-![Covid 19 :: Preprocessed Dataset](../assets/Covid19_Dataset_Exploration_01.webp)
+![Covid 19 :: Preprocessed Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Covid19_Dataset_Exploration_01.webp)
 
 
 ## Worldwide Case Density
@@ -274,7 +274,7 @@ fig.update_layout(
 fig.show()
 ```
 
-![Covid 19 :: Preprocessed Dataset](../assets/Covid19_Dataset_Exploration_02.webp)
+![Covid 19 :: Preprocessed Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Covid19_Dataset_Exploration_02.webp)
 
 
 ## Cruising Corona
@@ -364,7 +364,7 @@ fig.add_trace(go.Scatter(
 ))
 ```
 
-![Covid 19 :: Preprocessed Dataset](../assets/Covid19_Dataset_Exploration_03.webp)
+![Covid 19 :: Preprocessed Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Covid19_Dataset_Exploration_03.webp)
 
 ```python
 time_plot_df = df_data_clean.groupby(
@@ -413,7 +413,7 @@ fig.data[0].textinfo = 'label+text+value'
 fig.show()
 ```
 
-![Covid 19 :: Preprocessed Dataset](../assets/Covid19_Dataset_Exploration_04.webp)
+![Covid 19 :: Preprocessed Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Covid19_Dataset_Exploration_04.webp)
 
 ```python
 tp_df = time_plot_df.melt(
@@ -440,4 +440,4 @@ fig.update_layout(
 fig.show()
 ```
 
-![Covid 19 :: Preprocessed Dataset](../assets/Covid19_Dataset_Exploration_05.webp)
+![Covid 19 :: Preprocessed Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Covid19_Dataset_Exploration_05.webp)
