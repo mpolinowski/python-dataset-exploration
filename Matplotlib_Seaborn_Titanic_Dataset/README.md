@@ -115,7 +115,7 @@ sns.heatmap(
 plt.savefig('../assets/Titanic_Dataset_Exploration_00.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_00.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_00.webp)
 
 ```python
 titanic_df_cleaned = titanic_df.drop(['age', 'deck'], axis=1)
@@ -154,7 +154,7 @@ sns.heatmap(
 plt.savefig('../assets/Titanic_Dataset_Exploration_01.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_01.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_01.webp)
 
 
 ## Multivariant Analysis
@@ -242,7 +242,7 @@ sns.histplot(
 plt.savefig('../assets/Titanic_Dataset_Exploration_02.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_02.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_02.webp)
 
 
 ### Number of Survivors
@@ -283,7 +283,7 @@ plt.legend()
 plt.savefig('../assets/Titanic_Dataset_Exploration_03.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_03.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_03.webp)
 
 ```python
 colors = plt.get_cmap('seismic')(np.linspace(0.4, 0.6, 2))
@@ -316,7 +316,7 @@ axes[1].set_title('Survivor Percentage')
 plt.savefig('../assets/Titanic_Dataset_Exploration_04.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_04.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_04.webp)
 
 
 ### Passengers by Class
@@ -361,7 +361,7 @@ plt.ylabel('Count')
 plt.savefig('../assets/Titanic_Dataset_Exploration_05.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_05.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_05.webp)
 
 ```python
 # break down dataframe by classes
@@ -413,7 +413,7 @@ axes[2].set_title('Third Class')
 plt.savefig('../assets/Titanic_Dataset_Exploration_06.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_06.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_06.webp)
 
 ```python
 sns.catplot(
@@ -434,7 +434,7 @@ plt.legend(loc='upper right')
 plt.savefig('../assets/Titanic_Dataset_Exploration_07.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_07.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_07.webp)
 
 ```python
 fig, axes = plt.subplots(1, 3, sharex=False, figsize=(24,6))
@@ -471,7 +471,7 @@ plt.savefig('../assets/Titanic_Dataset_Exploration_08.webp', bbox_inches='tight'
 
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_08.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_08.webp)
 
 
 ### Passengers by Gender
@@ -514,7 +514,7 @@ plt.ylabel('Count')
 plt.savefig('../assets/Titanic_Dataset_Exploration_09.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_09.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_09.webp)
 
 ```python
 sns.countplot(
@@ -532,7 +532,7 @@ plt.ylabel('Count')
 plt.savefig('../assets/Titanic_Dataset_Exploration_10.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_10.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_10.webp)
 
 ```python
 # break down dataframe by gender
@@ -572,7 +572,7 @@ axes[1].set_title('Female')
 plt.savefig('../assets/Titanic_Dataset_Exploration_11.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_11.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_11.webp)
 
 ```python
 sns.catplot(
@@ -595,7 +595,7 @@ plt.legend(loc='upper right')
 plt.savefig('../assets/Titanic_Dataset_Exploration_12.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_12.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_12.webp)
 
 ```python
 sns.catplot(
@@ -617,7 +617,7 @@ plt.legend(loc='upper right')
 plt.savefig('../assets/Titanic_Dataset_Exploration_13.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_13.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_13.webp)
 
 ```python
 fig, axes = plt.subplots(1, 3, sharex=False, figsize=(24,6))
@@ -669,7 +669,7 @@ plt.savefig('../assets/Titanic_Dataset_Exploration_14.webp', bbox_inches='tight'
 
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_14.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_14.webp)
 
 ```python
 sns.countplot(
@@ -686,7 +686,7 @@ plt.ylabel('Count')
 plt.savefig('../assets/Titanic_Dataset_Exploration_24.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_24.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_24.webp)
 
 ```python
 # break down dataframe by family members
@@ -738,7 +738,7 @@ axes[2].set_title('Child')
 plt.savefig('../assets/Titanic_Dataset_Exploration_25.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_25.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_25.webp)
 
 ```python
 sns.catplot(
@@ -753,7 +753,7 @@ sns.catplot(
 plt.savefig('../assets/Titanic_Dataset_Exploration_26.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_26.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_26.webp)
 
 
 ### Passengers by Age
@@ -775,7 +775,7 @@ plt.xlabel('Age')
 plt.savefig('../assets/Titanic_Dataset_Exploration_15.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_15.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_15.webp)
 
 ```python
 sns.catplot(
@@ -792,7 +792,7 @@ sns.catplot(
 plt.savefig('../assets/Titanic_Dataset_Exploration_16.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_16.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_16.webp)
 
 ```python
 sns.catplot(
@@ -811,7 +811,7 @@ plt.savefig('../assets/Titanic_Dataset_Exploration_17.webp', bbox_inches='tight'
 #plt.tight_layout()
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_17.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_17.webp)
 
 ```python
 sns.catplot(
@@ -834,7 +834,7 @@ plt.savefig('../assets/Titanic_Dataset_Exploration_18.webp', bbox_inches='tight'
 #plt.tight_layout()
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_18.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_18.webp)
 
 ```python
 sns.catplot(
@@ -850,7 +850,7 @@ sns.catplot(
 plt.savefig('../assets/Titanic_Dataset_Exploration_19.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_19.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_19.webp)
 
 
 ### Passengers by Fare
@@ -872,7 +872,7 @@ plt.xlabel('Fare')
 plt.savefig('../assets/Titanic_Dataset_Exploration_20.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_20.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_20.webp)
 
 ```python
 sns.catplot(
@@ -890,7 +890,7 @@ sns.catplot(
 plt.savefig('../assets/Titanic_Dataset_Exploration_21.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_21.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_21.webp)
 
 ```python
 sns.jointplot(
@@ -906,7 +906,7 @@ sns.jointplot(
 plt.savefig('../assets/Titanic_Dataset_Exploration_22.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_22.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_22.webp)
 
 ```python
 sns.relplot(
@@ -921,4 +921,4 @@ sns.relplot(
 plt.savefig('../assets/Titanic_Dataset_Exploration_23.webp', bbox_inches='tight')
 ```
 
-![Titanic Dataset](../assets/Titanic_Dataset_Exploration_23.webp)
+![Titanic Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/Titanic_Dataset_Exploration_23.webp)
