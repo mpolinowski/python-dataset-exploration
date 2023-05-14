@@ -245,7 +245,7 @@ reviews_df_expanded['Polarity'].iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_01.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_01.webp)
 
 ```python
 reviews_df_expanded['Polarity'].iplot(
@@ -257,7 +257,7 @@ reviews_df_expanded['Polarity'].iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_02.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_02.webp)
 
 
 #### Ratings vs. Age
@@ -272,7 +272,7 @@ reviews_df_expanded['Rating'].iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_03.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_03.webp)
 
 ```python
 reviews_df_expanded['Age'].iplot(
@@ -284,7 +284,7 @@ reviews_df_expanded['Age'].iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_04.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_04.webp)
 
 ```python
 sns.jointplot(
@@ -297,10 +297,10 @@ sns.jointplot(
     alpha=0.4
 )
 
-plt.savefig('../assets/E-Commerce_Clothing_Reviews_05.webp', bbox_inches='tight')
+plt.savefig('https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_05.webp', bbox_inches='tight')
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_05.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_05.webp)
 
 
 ### Word Count vs Average Word Length
@@ -315,7 +315,7 @@ reviews_df_expanded['Word Count'].iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_06.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_06.webp)
 
 ```python
 reviews_df_expanded['Average Word Length'].iplot(
@@ -327,7 +327,7 @@ reviews_df_expanded['Average Word Length'].iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_07.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_07.webp)
 
 ```python
 sns.jointplot(
@@ -340,10 +340,10 @@ sns.jointplot(
     alpha=0.4
 )
 
-plt.savefig('../assets/E-Commerce_Clothing_Reviews_08.webp', bbox_inches='tight')
+plt.savefig('https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_08.webp', bbox_inches='tight')
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_08.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_08.webp)
 
 
 ### Categorical Plots
@@ -390,7 +390,7 @@ reviews_df_expanded['Department Name'].value_counts().iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_09.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_09.webp)
 
 ```python
 reviews_df_expanded['Division Name'].value_counts().iplot(
@@ -402,7 +402,7 @@ reviews_df_expanded['Division Name'].value_counts().iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_10.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_10.webp)
 
 ```python
 reviews_df_expanded['Class Name'].value_counts().iplot(
@@ -414,7 +414,7 @@ reviews_df_expanded['Class Name'].value_counts().iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_11.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_11.webp)
 
 
 ### Unigram, Bigram and Trigram
@@ -535,7 +535,7 @@ top_20_unigrams_df.iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_12.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_12.webp)
 
 
 #### Bigrams Feature Extraction
@@ -585,7 +585,7 @@ top_20_bigrams_df.iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_13.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_13.webp)
 
 
 #### Trigrams Feature Extraction
@@ -635,7 +635,7 @@ top_20_trigrams_df.iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_14.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_14.webp)
 
 
 #### Removing Stop Words
@@ -678,7 +678,7 @@ top_20_unigrams_no_stop_df.iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_15.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_15.webp)
 
 ```python
 top_20_bigrams_no_stop = get_ngrams_no_stop_by_frequency(
@@ -699,7 +699,7 @@ top_20_bigrams_no_stop_df.iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_16.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_16.webp)
 
 ```python
 top_20_trigrams_no_stop = get_ngrams_no_stop_by_frequency(
@@ -720,7 +720,7 @@ top_20_trigrams_no_stop_df.iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_17.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_17.webp)
 
 
 ### Parts-of-Speech (PoS-Tags)
@@ -932,7 +932,7 @@ pos_df.iplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_18.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_18.webp)
 
 
 ### Bivariant Analysis
@@ -947,7 +947,7 @@ sns.pairplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_19.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_19.webp)
 
 
 #### Swarm Plot - Polarity by Department Name
@@ -966,7 +966,7 @@ sns.catplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_20.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_20.webp)
 
 
 #### Boxen Plot - Polarity by Department Name
@@ -984,7 +984,7 @@ sns.catplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_21.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_21.webp)
 
 
 #### Box Plot - Review Length by Deparment Name
@@ -1002,7 +1002,7 @@ sns.catplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_22.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_22.webp)
 
 
 #### Recommendation Sentiment Polarity Distribution
@@ -1046,7 +1046,7 @@ fig.data[1].marker.color = ('dodgerblue')
 iplot(fig)
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_23.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_23.webp)
 
 
 #### Recommendation Rating Distribution
@@ -1069,7 +1069,7 @@ fig.data[1].marker.color = ('dodgerblue')
 iplot(fig)
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_24.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_24.webp)
 
 
 #### Joint Plot
@@ -1086,4 +1086,4 @@ sns.jointplot(
 )
 ```
 
-![Visualizing Text Data](../assets/E-Commerce_Clothing_Reviews_25.webp)
+![Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/raw/master/assets/E-Commerce_Clothing_Reviews_25.webp)
