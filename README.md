@@ -6,3 +6,4 @@
 * [Visualizing Text Data](https://github.com/mpolinowski/python-dataset-exploration/tree/master/Visualizing_Text_Data)
 * [Customer Churn Prediction](https://github.com/mpolinowski/python-dataset-exploration/tree/master/CC-Customer-Prediction)
 * [FiveThirtyEight Fandango Dataset](https://github.com/mpolinowski/python-dataset-exploration/tree/master/FiveThirtyEight_Fandango_Dataset)
+* [Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/tree/master/Telco-Customer-Churn)
