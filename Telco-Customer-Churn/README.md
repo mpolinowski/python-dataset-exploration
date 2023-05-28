@@ -176,7 +176,7 @@ sns.countplot(data=telco_df, x='Churn', palette='seismic')
 plt.savefig('assets/telco-customer-churn_01.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_01.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_01.webp)
 
 ```python
 plt.figure(figsize=(10, 5))
@@ -192,7 +192,7 @@ sns.boxenplot(
 plt.savefig('assets/telco-customer-churn_02.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_02.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_02.webp)
 
 ```python
 plt.figure(figsize=(10, 5))
@@ -213,7 +213,7 @@ plt.legend(loc='lower right', title='Churn')
 plt.savefig('assets/telco-customer-churn_03.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_03.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_03.webp)
 
 ```python
 # make values numeric to show correlation
@@ -280,7 +280,7 @@ sns.heatmap(telco_df_numeric.corr(), annot=True, cmap='coolwarm')
 plt.savefig('assets/telco-customer-churn_04.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_04.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_04.webp)
 
 ```python
 # correlation to label class
@@ -340,7 +340,7 @@ sns.barplot(
 plt.savefig('assets/telco-customer-churn_05.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_05.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_05.webp)
 
 
 ### Churn Analaysis
@@ -371,7 +371,7 @@ sns.histplot(
 plt.savefig('assets/telco-customer-churn_06.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_06.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_06.webp)
 
 ```python
 plt.figure(figsize=(10, 5))
@@ -389,7 +389,7 @@ sns.histplot(
 plt.savefig('assets/telco-customer-churn_07.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_07.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_07.webp)
 
 ```python
 grid = sns.catplot(
@@ -414,7 +414,7 @@ grid.fig.suptitle('Tenure [months] by Contract Type and Churn')
 plt.savefig('assets/telco-customer-churn_08.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_08.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_08.webp)
 
 ```python
 plt.figure(figsize=(10, 6))
@@ -433,7 +433,7 @@ plot.set_title('Churn by Monthly and Total Charges')
 plt.savefig('assets/telco-customer-churn_09.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_09.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_09.webp)
 
 
 #### Tenure Cohort Study
@@ -473,7 +473,7 @@ sns.scatterplot(
 plt.savefig('assets/telco-customer-churn_10.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_10.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_10.webp)
 
 ```python
 # adding missing columns
@@ -538,7 +538,7 @@ ax.set(
 fig.savefig('assets/telco-customer-churn_11.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_11.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_11.webp)
 
 ```python
 # group customers in chorts 0-12,12-24,24-48 and above 48 months tenure
@@ -591,7 +591,7 @@ plot.set_title('Monthly and Total Charges by Tenure Cohort')
 plt.savefig('assets/telco-customer-churn_12.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_12.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_12.webp)
 
 ```python
 plt.figure(figsize=(12, 5))
@@ -607,7 +607,7 @@ sns.boxenplot(
 plt.savefig('assets/telco-customer-churn_13.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_13.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_13.webp)
 
 ```python
 plt.figure(figsize=(10, 5))
@@ -623,7 +623,7 @@ sns.boxenplot(
 plt.savefig('assets/telco-customer-churn_14.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_14.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_14.webp)
 
 ```python
 plt.figure(figsize=(10, 5))
@@ -638,7 +638,7 @@ sns.countplot(
 plt.savefig('assets/telco-customer-churn_15.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_15.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_15.webp)
 
 ```python
 grid = sns.catplot(
@@ -662,7 +662,7 @@ grid.fig.suptitle('Contract Type by Tenure Cohort and Churn')
 plt.savefig('assets/telco-customer-churn_16.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_16.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_16.webp)
 
 
 ### Predictive Modeling
@@ -711,7 +711,7 @@ conf_mtx_tree_plot.plot(cmap='winter')
 plt.savefig('assets/telco-customer-churn_17.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_17.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_17.webp)
 
 ```python
 report_tree = classification_report(
@@ -785,7 +785,7 @@ tree_importance_df.sort_values(
 plt.savefig('assets/telco-customer-churn_18.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_18.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_18.webp)
 
 
 #### Random Forest
@@ -834,7 +834,7 @@ conf_mtx_rdnfor_plot.plot(cmap='winter')
 plt.savefig('assets/telco-customer-churn_19.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_19.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_19.webp)
 
 ```python
 report_rdnfor = classification_report(
@@ -886,7 +886,7 @@ conf_mtx_abc_plot.plot(cmap='winter')
 plt.savefig('assets/telco-customer-churn_21.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_21.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_21.webp)
 
 ```python
 report_abc = classification_report(
@@ -925,7 +925,7 @@ abc_importance_df.sort_values(
 plt.savefig('assets/telco-customer-churn_22.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_22.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_22.webp)
 
 
 #### Gradient Boosting
@@ -969,7 +969,7 @@ conf_mtx_gb_plot.plot(cmap='winter')
 plt.savefig('assets/telco-customer-churn_23.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_23.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_23.webp)
 
 ```python
 report_gb = classification_report(
@@ -1021,7 +1021,7 @@ conf_mtx_svc_plot.plot(cmap='winter')
 plt.savefig('assets/telco-customer-churn_24.webp', bbox_inches='tight')
 ```
 
-![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/FiveThirtyEight_Fandango_Dataset/assets/telco-customer-churn_24.webp)
+![Telco Customer Churn Dataset](https://github.com/mpolinowski/python-dataset-exploration/raw/master/Telco-Customer-Churn/assets/telco-customer-churn_24.webp)
 
 ```python
 report_svc = classification_report(
